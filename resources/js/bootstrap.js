@@ -6,9 +6,19 @@ window._ = require('lodash');
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
+import 'bootstrap';
+
 window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+window.Popper = require('@popperjs/core');
+
+window.$ = require('jquery');
+
+require('./jQuery-provider.js');
+
+tempusDominus.extend(window.tempusDominus.plugins.customDateFormat);
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
