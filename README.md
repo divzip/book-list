@@ -1,5 +1,14 @@
 ## Booklist Example Page On Laravel
+
 <p align="center"><img src="https://img001.prntscr.com/file/img001/ZjS5Xr7rRU-_Kr7RX_m_qA.png" width="800"></p>
+
+## Installation
+<pre>composer install</pre>
+<pre>Create .env file with all correct values for DB</pre>
+<pre>php artisan migrate:fresh --seed</pre>
+<pre>npm install</pre>
+<pre>npm run dev (or npm run prod)</pre>
+<pre>php artisan serve</pre>
 
 ## Search by Book or Author name 
 
